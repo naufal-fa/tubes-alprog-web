@@ -1,0 +1,33 @@
+/* CAROUSEL STYLING */
+.c-item {
+    height: 500px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* SERVICE STYLING */
+#service-section {
+    padding: 50px 0;
+}
+
+.service-card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
+    transition: all .2s ease-in
+}
+
+.service-card:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
