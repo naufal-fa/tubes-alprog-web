@@ -31,3 +31,20 @@
     height: 80px;
     border-radius: 50%;
 }
+
+/* DESTINATION STYLING */
+.dest-img {
+    border-radius: 10px;
+}
+
+.dest-card .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+}
+
+.dest-card .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}

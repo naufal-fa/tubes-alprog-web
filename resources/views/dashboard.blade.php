@@ -117,4 +117,131 @@
   </div>
 </section>
 
+<!-- Destination Highlight -->
+<section id="destlight">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="fw-bolder">Destination Highlight</h1>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img1.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 1</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img2.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 2</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img3.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 3</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img4.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 4</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img5.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 5</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img6.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 6</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img7.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 7</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3 mb-4">
+            <div class="dest-card position-relative">
+              <img src="{{ asset('images/destination-images/destination-img8.png') }}" width="100%" height="auto" alt="" class="dest-img">
+
+              <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
+                  <h5 class="fs-4 fw-bolder">Destinasi 8</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 @endsection
