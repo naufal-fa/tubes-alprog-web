@@ -136,3 +136,83 @@
     width: 100px;
     height: 100px;
 }
+
+/* ======================================================================= */
+/* DESTINATION PAGE 2 STYLING */
+
+#hero-section {
+    background-image: url("../../public/images/slider-image-3.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-section::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-section .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-section h1 {
+    margin-top: 120px;
+}
+
+.tour-column {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.tour-image {
+    transition: transform .5s ease;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-image-popular {
+    transition: transform .5s ease;
+    display: block;
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+.tour-column:hover .tour-image {
+    transform: scale(1.1);
+}
+
+.tour-column:hover .tour-image-popular {
+    transform: scale(1.1);
+}
+
+.tour-title {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+/* EMAIL SUBSCRIBE SECTION STYLING */
+#bg-image-email {
+    background-image: url("../../public/images/destination-images/destination-img25.png");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -40,7 +40,7 @@
                         <a class="nav-link active" aria-current="page" href="{{ route('dashboard') }}">Beranda</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Destinasi Wisata</a>
+                        <a class="nav-link" href="{{ route('destination') }}">Destinasi Wisata</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">Festival</a>

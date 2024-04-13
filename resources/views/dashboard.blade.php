@@ -18,7 +18,7 @@
         <div class="carousel-caption top-0 d-flex justify-content-center align-items-center">
           <div class="text-center">
             <p class="fs-6 fs-md-5 text-uppercase">Experience Breathtaking Natural Beauty</p>
-            <h1 class=" display-5 fw-bolder text-uppercase">Welcome to Nature's Paradise</h1>
+            <h1 class="display-5 fw-bolder text-uppercase">Welcome to Nature's Paradise</h1>
             <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum iure iusto ducimus officia quasi repellat aut voluptate minima. Dolorum aliquam sapiente cum iusto repudiandae, placeat cumque inventore illo dolorem.</p>
             <button class="btn btn-primary px-4 py-2 fs-5 mt-2">Start Your Adventure</button>
           </div>
@@ -594,57 +594,6 @@
 </section>
 
 <!-- Footer Section -->
-<!-- <footer class="pt-5 pb-4">
-  <div class="container  text-md-left">
-    <div class="row  text-md-left">
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h4 class="text-uppercase mb-4 fw-bold">Company Name</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo exercitationem libero corporis delectus necessitatibus!</p>
-      </div>
-
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h4 class="text-uppercase mb-4 fw-bold">My Link</h4>
-        <p><a href="#" class="text-black text-decoration-none">Link 1</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 2</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 3</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 4</a></p>
-      </div>
-
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h4 class="text-uppercase mb-4 fw-bold">My Link</h4>
-        <p><a href="#" class="text-black text-decoration-none">Link 1</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 2</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 3</a></p>
-        <p><a href="#" class="text-black text-decoration-none">Link 4</a></p>
-      </div>
-
-      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-        <h4 class="text-uppercase mb-4 fw-bold">Contact</h4>
-        <p><i class="bi bi-house-door me-2 my-auto"></i>Address, 9999, SBY</p>
-        <p><i class="fas fa-envelope">youremail@gmail.com</i></p>
-        <p><i class="fas fa-phone mr-3">0000 1111 2222</i></p>
-        <p><i class="fas fa-print mr-3">3333 4444 5555</i></p>
-      </div>
-    </div>
-  </div>
-</footer> -->
-
-<!-- <footer>
-  <div class="container-fluid mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="d-flex align-items-center mb-3">
-            <img src="{{ asset('logo/website_logo.png') }}" alt="" width="24" height="24" class="img-footer">
-            <span class="fs-4 fw-bolder" >LARAVEL PROJECT</span>
-          </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, a?</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer> -->
-
 <footer class="bg-light text-dark pt-5 pb-4">
   <div class="container">
     <div class="row">
