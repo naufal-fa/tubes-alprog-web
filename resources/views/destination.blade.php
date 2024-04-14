@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Hero Image -->
-<section id="hero-section">
+<section id="hero-destination">
   <div class="container">
     <div class="row text-white">
       <div class="col-10 ps-5 ps-md-0">
@@ -23,8 +23,8 @@
   <div class="container mt-4">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ route('dashboard') }}" class="text-decoration-none text-black">Beranda</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Destinasi Wisata</li>
+        <li class="breadcrumb-item"><a href="{{ route('dashboard') }}" class="text-decoration-none text-black">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Tourist Destination</li>
       </ol>
     </nav>
 

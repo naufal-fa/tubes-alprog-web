@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('dashboard') }}">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('dashboard') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="{{ route('destination') }}">Destinasi Wisata</a>
+                        <a class="nav-link" href="{{ route('destination') }}">Tourist Destination</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Festival</a>
+                        <a class="nav-link" href="{{ route('guide') }}">Travel Guide</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">Kuliner & Merchandise</a>
