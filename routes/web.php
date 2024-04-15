@@ -22,6 +22,14 @@ Route::get('/destination-details', function () {
     return view('destination-details');
 })->name('destination-details');
 
+Route::get('/event-festival', function () {
+    return view('event-festival');
+})->name('event-festival');
+
+Route::get('/event-festival-details', function () {
+    return view('event-festival-details');
+})->name('event-festival-details');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

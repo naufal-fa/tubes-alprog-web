@@ -416,7 +416,7 @@
           <div class="card-body">
             <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
             <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-            <a href="#" class="btn btn-primary col-12">Show Details</a>
+            <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
           </div>
         </div>
       </div>
@@ -427,7 +427,7 @@
           <div class="card-body">
             <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
             <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-            <a href="#" class="btn btn-primary col-12">Show Details</a>
+            <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
           </div>
         </div>
       </div>
@@ -438,7 +438,7 @@
           <div class="card-body">
             <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
             <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-            <a href="#" class="btn btn-primary col-12">Show Details</a>
+            <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
           </div>
         </div>
       </div>
@@ -449,7 +449,7 @@
           <div class="card-body">
             <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
             <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-            <a href="#" class="btn btn-primary col-12">Show Details</a>
+            <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
           </div>
         </div>
       </div>
@@ -460,7 +460,7 @@
           <div class="card-body">
             <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
             <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-            <a href="#" class="btn btn-primary col-12">Show Details</a>
+            <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Hero Image -->
-<section id="hero-guide">
+<section id="hero-event">
   <div class="container">
     <div class="row text-white">
       <div class="col-10 ps-5 ps-md-0">
@@ -35,7 +35,7 @@
     </div>
   </div>
 </section>
-`
+
 <!-- Travel Guide Section -->
 <section>
   <div class="container">
