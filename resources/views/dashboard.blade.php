@@ -593,6 +593,25 @@
   </div>
 </section>
 
+<!-- Subscribe Email Section -->
+<section class="mx-3 mt-5">
+  <div id="bg-image-email" class="container p-5">
+    <div class="row">
+      <h2 class="text-white text-center fw-bold mb-4">Dapatkan E-Book Travel Gratis dengan Berlangganan</h2>
+      <div class="col-10 mx-auto">
+        <form>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control py-2" placeholder="Enter your email address" aria-label="Recipient's email">
+            <div class="input-group-append">
+              <button class="btn btn-primary py-2" type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Footer Section -->
 <footer class="bg-light text-dark pt-5 pb-4">
   <div class="container">

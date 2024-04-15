@@ -52,7 +52,7 @@
                         <a class="nav-link" href="{{ route('guide') }}">Travel Guide</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Article & Information</a>
+                        <a class="nav-link" href="{{ route('article') }}">Article & Information</a>
                         </li>
                     </ul>
 

@@ -34,6 +34,14 @@ Route::get('/culinary-merchandise', function () {
     return view('culinary-merchandise');
 })->name('culinary-merchandise');
 
+Route::get('/article', function () {
+    return view('article');
+})->name('article');
+
+Route::get('/article-details', function () {
+    return view('article-details');
+})->name('article-details');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
