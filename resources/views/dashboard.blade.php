@@ -135,7 +135,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 1</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 2</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 3</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 4</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -191,7 +191,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 5</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 6</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 7</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
                 <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                   <h5 class="fs-4 fw-bolder">Destinasi 8</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -259,10 +259,10 @@
             <button class="nav-link active" id="destination-tab" data-bs-toggle="tab" data-bs-target="#destination" type="button" role="tab" aria-controls="home" aria-selected="true">Destination</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="accomodation-tab" data-bs-toggle="tab" data-bs-target="#accomodation" type="button" role="tab" aria-controls="profile" aria-selected="false">Accomodation</button>
+            <button class="nav-link" id="accomodation-tab" data-bs-toggle="tab" data-bs-target="#accomodation" type="button" role="tab" aria-controls="profile" aria-selected="false">Regional Event</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tourpackages-tab" data-bs-toggle="tab" data-bs-target="#tourpackages" type="button" role="tab" aria-controls="contact" aria-selected="false">Tour Packages</button>
+            <button class="nav-link" id="tourpackages-tab" data-bs-toggle="tab" data-bs-target="#tourpackages" type="button" role="tab" aria-controls="contact" aria-selected="false">Information</button>
           </li>
         </ul>
 
@@ -305,10 +305,10 @@
           <div class="tab-pane fade" id="accomodation" role="tabpanel" aria-labelledby="accomodation-tab">
             <div class="input-group input-search mb-3">
 
-              <!-- DROPDOWN HOTEL -->
+              <!-- DROPDOWN EVENT -->
               <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="{{ asset('icon/icon-hotel.svg') }}" alt="" class="dropdown-icon">
-                Hotel
+                <img src="{{ asset('icon/icon-event.svg') }}" alt="" class="dropdown-icon">
+                Event
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -318,10 +318,10 @@
                 <li><a class="dropdown-item" href="#">Separated link</a></li>
               </ul>
 
-              <!-- DROPDOWN RESORT -->
+              <!-- DROPDOWN FESTIVAL -->
               <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="{{ asset('icon/icon-resort.svg') }}" alt="" class="dropdown-icon">
-                Resort
+                <img src="{{ asset('icon/icon-festival.svg') }}" alt="" class="dropdown-icon">
+                Festival
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -341,8 +341,8 @@
 
               <!-- DROPDOWN TRAVEL PACKAGE -->
               <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="{{ asset('icon/icon-travel-packages.svg') }}" alt="" class="dropdown-icon">
-                Travel Package
+                <img src="{{ asset('icon/icon-enterprise.svg') }}" alt="" class="dropdown-icon">
+                 Enterprise
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -354,8 +354,8 @@
 
               <!-- DROPDOWN TRAVEL TOUR -->
               <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="{{ asset('icon/icon-tour-travel.svg') }}" alt="" class="dropdown-icon">
-                Travel Tour
+                <img src="{{ asset('icon/icon-article.svg') }}" alt="" class="dropdown-icon">
+                Article
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -391,7 +391,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 1</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
@@ -402,7 +402,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 2</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
@@ -413,7 +413,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 3</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
@@ -424,7 +424,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 4</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
@@ -435,7 +435,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 5</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
@@ -446,7 +446,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Destinasi 6</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary w-100">Learn More</a>
+            <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
           </div>
         </div>
       </div>
