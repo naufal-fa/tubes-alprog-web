@@ -30,6 +30,10 @@ Route::get('/event-festival-details', function () {
     return view('event-festival-details');
 })->name('event-festival-details');
 
+Route::get('/culinary-merchandise', function () {
+    return view('culinary-merchandise');
+})->name('culinary-merchandise');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

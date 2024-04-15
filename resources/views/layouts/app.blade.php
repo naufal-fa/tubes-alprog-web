@@ -43,7 +43,7 @@
                         <a class="nav-link" href="{{ route('destination') }}">Tourist Destination</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Culinary & Merchandise</a>
+                        <a class="nav-link" href="{{ route('culinary-merchandise') }}">Culinary & Merchandise</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="{{ route('event-festival') }}">Event & Festival</a>
