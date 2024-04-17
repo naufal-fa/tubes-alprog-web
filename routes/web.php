@@ -2,46 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
-
-Route::get('/destination', function () {
-    return view('destination');
-})->name('destination');
-
-Route::get('/guide', function () {
-    return view('guide');
-})->name('guide');
-
-Route::get('/destination-details', function () {
-    return view('destination-details');
-})->name('destination-details');
-
-Route::get('/event-festival', function () {
-    return view('event-festival');
-})->name('event-festival');
-
-Route::get('/event-festival-details', function () {
-    return view('event-festival-details');
-})->name('event-festival-details');
-
-Route::get('/culinary-merchandise', function () {
-    return view('culinary-merchandise');
-})->name('culinary-merchandise');
-
-Route::get('/article', function () {
-    return view('article');
-})->name('article');
-
-Route::get('/article-details', function () {
-    return view('article-details');
-})->name('article-details');
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['as' => ''], function () {
+    Route::get('/', App\Livewire\Main\Home\HomeIndex::class)->name('home');
+    Route::get('/guide', App\Livewire\Main\Guide\GuideIndex::class)->name('guide');
+    Route::get('/destination', App\Livewire\Main\Destination\DestinationIndex::class)->name('destination');
+    Route::get('/destination-details', App\Livewire\Main\Destination\DestinationDetailIndex::class)->name('destination-details');
+    Route::get('/event-festival', App\Livewire\Main\Event\EventFestivalIndex::class)->name('event-festival');
+    Route::get('/event-festival-details', App\Livewire\Main\Event\EventFestivalDetailIndex::class)->name('event-festival-details');
+    Route::get('/culinary-merchandise', App\Livewire\Main\CulinaryMerchandise\CulinaryMerchandiseIndex::class)->name('culinary-merchandise');
+    Route::get('/article', App\Livewire\Main\Article\ArticleIndex::class)->name('article');
+    Route::get('/article-details', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('article-details');
+});

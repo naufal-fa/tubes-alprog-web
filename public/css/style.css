@@ -1,0 +1,535 @@
+/* CAROUSEL STYLING */
+.c-item {
+    height: 500px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* SERVICE STYLING */
+#service-section {
+    padding: 50px 0;
+}
+
+.service-card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
+    transition: all .2s ease-in
+}
+
+.service-card:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* DESTINATION STYLING */
+.dest-img {
+    border-radius: 10px;
+}
+
+.dest-card .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+}
+
+.dest-card .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+/* SEARCH STYLING */
+#search {
+    background-image: url("../../public/images/search-section/search-section-img.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-search {
+    height: 60px;
+}
+
+.input-search:focus {
+    border: none;
+}
+
+.input-search .button-secondary {
+    border: none;
+    background-color: rgba(255, 255, 255, alpha, 0.8);
+    color: #337ab7;
+    font-weight: 600;
+    border-radius: 0 0 0 10px;
+}
+
+.button-primary {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+#myTab {
+    border: none;
+}
+
+#destination-tab {
+    border-radius: 10px 0 0 0;
+}
+
+#accomodation-tab {
+    border-radius: 0;
+}
+
+#tourpackages-tab {
+    border-radius: 0 10px 0 0;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0);
+    padding: 10px 15.5px;
+}
+
+/* CARD STYLING */
+.recom-card {
+    border: none !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+    transition: all .2s ease-in;
+}
+
+.recom-card:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+    transition: all .2s ease-in;
+}
+
+/* TESTIMONIAL STYLING */
+.card-testimoni {
+    margin: 0 5px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    border: none !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
+}
+
+/* FOOTER STYLING */
+.img-footer {
+    margin-right: 10px;
+}
+
+.card-img-testi {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
+    width: 100px;
+    height: 100px;
+}
+
+/* ======================================================================= */
+/* DESTINATION PAGE 2 STYLING */
+
+#hero-destination {
+    background-image: url("../../public/images/slider-image-3.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-destination::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-destination .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-destination h1 {
+    margin-top: 120px;
+}
+
+.tour-column {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.tour-image {
+    transition: transform .5s ease;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-image-popular {
+    transition: transform .5s ease;
+    display: block;
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+.tour-column:hover .tour-image {
+    transform: scale(1.1);
+}
+
+.tour-column:hover .tour-image-popular {
+    transform: scale(1.1);
+}
+
+.tour-title {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+/* EMAIL SUBSCRIBE SECTION STYLING */
+#bg-image-email {
+    background-image: url("../../public/images/destination-images/destination-img25.png");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ======================================================================= */
+/* GUIDE STYLING */
+
+#hero-guide {
+    background-image: url("../../public/images/slider-image-6.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-guide::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-guide .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-guide h1 {
+    margin-top: 100px;
+}
+
+.card-guide {
+    border: none !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+    transition: all .2s ease-in;
+}
+
+.card-guide:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+    transition: all .2s ease-in;
+}
+
+.guide-cover-img {
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+.guide-cover-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.guide-cover-img img:hover {
+    transform: scale(1.1);
+}
+
+/* ======================================================================= */
+/* DETAIL DESTINATION PAGE STYLING */
+
+#hero-details {
+    background-image: url("../../public/images/slider-image-7.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-details::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-details .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-details h1 {
+    margin-top: 100px;
+}
+
+/* INFORMATION CARD STYLING */
+
+.info-card-img {
+    display: block;
+    object-fit: cover;
+    height: 200px;
+}
+
+/* ======================================================================= */
+/* EVENT & FESTIVAL STYLING */
+
+#hero-event {
+    background-image: url("../../public/images/event-festival-img/event-festival-img1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-event::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-event .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-event h1 {
+    margin-top: 80px;
+}
+
+#filter {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+}
+
+.card-event {
+    border: none !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+    transition: all .2s ease-in;
+}
+
+.card-event:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+    transition: all .2s ease-in;
+}
+
+.event-cover-img {
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+.event-cover-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-cover-img img:hover {
+    transform: scale(1.1);
+}
+
+/* ======================================================================= */
+/* EVENT & FESTIVAL DETAILS STYLING */
+
+#hero-event-details {
+    background-image: url("../../public/images/event-festival-img/event-festival-img2.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-event-details::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-event-details .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-event-details h1 {
+    margin-top: 100px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+}
+
+/* ======================================================================= */
+/* FOOD & MERCHANDISE STYLING */
+
+#hero-food-merchandise {
+    background-image: url("../../public/images/food-img/food-img6.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-food-merchandise::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-food-merchandise .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-food-merchandise h1 {
+    margin-top: 100px;
+}
+
+/* ======================================================================= */
+/* ARTICLE STYLING */
+
+#hero-article {
+    background-image: url("../../public/images/article-img/article-img2.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-article::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-article .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-article h1 {
+    margin-top: 100px;
+}
+
+/* ======================================================================= */
+/* ARTICLE DETAIL STYLING */
+
+#hero-article-details {
+    background-image: url("../../public/images/article-img/article-img9.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+#hero-article-details::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-article-details .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-article-details h1 {
+    margin-top: 80px;
+}
