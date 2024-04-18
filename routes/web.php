@@ -15,10 +15,20 @@ Route::group(['as' => ''], function () {
     Route::get('/article', App\Livewire\Main\Article\ArticleIndex::class)->name('article');
     Route::get('/article-details', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('article-details');
 });
-// 'middleware' => 'auth', 
-Route::group(['prefix' => 'simulindo', 'as' => 'simulindo.'], function () {
+
+Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
+    
+    Route::group(['prefix' => 'login', 'as' => 'login.'], function () {
+        Route::get('/', App\Livewire\Auth\Login\LoginIndex::class)->name('index');
+        Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login'])->name('post');
+    });
+
+    Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
+});
+
+Route::group(['middleware' => 'auth', 'prefix' => 'simulindo', 'as' => 'simulindo.'], function () {
     
     Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function () {
-        Route::get('/', App\Livewire\Simulindo\Dashbpard\DashboardIndex::class)->name('dashboard');
+        Route::get('/', App\Livewire\Simulindo\Dashboard\DashboardIndex::class)->name('index');
     });
 });
