@@ -15,3 +15,10 @@ Route::group(['as' => ''], function () {
     Route::get('/article', App\Livewire\Main\Article\ArticleIndex::class)->name('article');
     Route::get('/article-details', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('article-details');
 });
+// 'middleware' => 'auth', 
+Route::group(['prefix' => 'simulindo', 'as' => 'simulindo.'], function () {
+    
+    Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function () {
+        Route::get('/', App\Livewire\Simulindo\Dashbpard\DashboardIndex::class)->name('dashboard');
+    });
+});
