@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Simulindo\Dashbpard;
+namespace App\Livewire\Simulindo\Dashboard;
 
 use Livewire\Component;
 
@@ -10,7 +10,7 @@ class DashboardIndex extends Component
     {
         $data = [];
         
-        return view('livewire.simulindo.dashbpard.dashboard-index', $data)
+        return view('livewire.simulindo.dashboard.dashboard-index', $data)
         ->extends('layouts.simulindo.app')->section('content');
     }
 }
