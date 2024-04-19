@@ -13,5 +13,8 @@
     
     <!-- Footer -->
     @include('layouts.main.footer')
+
+    <!-- Script -->
+    @include('layouts.main.script')
 </body>
 </html>
