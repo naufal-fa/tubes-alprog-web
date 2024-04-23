@@ -227,7 +227,7 @@
 /* GUIDE STYLING */
 
 #hero-guide {
-    background-image: url("../../public/images/slider-image-6.png");
+    background-image: url("../images/slider-image-6.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,7 +254,7 @@
 }
 
 #hero-guide h1 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .card-guide {
@@ -330,8 +330,8 @@
 /* ======================================================================= */
 /* EVENT & FESTIVAL STYLING */
 
-#hero-event {
-    background-image: url("../../public/images/event-festival-img/event-festival-img1.png");
+#hero-history {
+    background-image: url("../images/history-img/history-img8.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -339,7 +339,7 @@
     padding: 0;
 }
 
-#hero-event::after {
+#hero-history::after {
     content: '';
     display: block;
     height: 100%;
@@ -352,12 +352,12 @@
     z-index: 0;
 }
 
-#hero-event .row {
+#hero-history .row {
     position: absolute;
     z-index: 1;
 }
 
-#hero-event h1 {
+#hero-history h1 {
     margin-top: 80px;
 }
 
@@ -396,8 +396,8 @@
 /* ======================================================================= */
 /* EVENT & FESTIVAL DETAILS STYLING */
 
-#hero-event-details {
-    background-image: url("../../public/images/event-festival-img/event-festival-img2.png");
+#hero-history-details {
+    background-image: url("../images/history-img/history-img9.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,7 +405,7 @@
     padding: 0;
 }
 
-#hero-event-details::after {
+#hero-history-details::after {
     content: '';
     display: block;
     height: 100%;
@@ -418,12 +418,12 @@
     z-index: 0;
 }
 
-#hero-event-details .row {
+#hero-history-details .row {
     position: absolute;
     z-index: 1;
 }
 
-#hero-event-details h1 {
+#hero-history-details h1 {
     margin-top: 100px;
 }
 
@@ -439,9 +439,9 @@
 }
 
 /* ======================================================================= */
-/* FOOD & MERCHANDISE STYLING */
+/* MERCHANDISE STYLING */
 
-#hero-food-merchandise {
+/* #hero-food-merchandise {
     background-image: url("../../public/images/food-img/food-img6.png");
     height: 500px;
     background-repeat: no-repeat;
@@ -470,13 +470,20 @@
 
 #hero-food-merchandise h1 {
     margin-top: 100px;
+} */
+
+.merchandise-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1; /* Membuat gambar menjadi persegi */
 }
 
 /* ======================================================================= */
 /* ARTICLE STYLING */
 
 #hero-article {
-    background-image: url("../../public/images/article-img/article-img2.png");
+    background-image: url("../images/article-img/article-img2.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,14 +510,14 @@
 }
 
 #hero-article h1 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* ======================================================================= */
 /* ARTICLE DETAIL STYLING */
 
 #hero-article-details {
-    background-image: url("../../public/images/article-img/article-img9.png");
+    background-image: url("../images/article-img/article-img9.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;

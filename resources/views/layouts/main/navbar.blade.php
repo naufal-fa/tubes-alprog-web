@@ -17,13 +17,13 @@
                 <a class="nav-link" href="{{ route('destination') }}">Tourist Destination</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('culinary-merchandise') }}">Culinary & Merchandise</a>
+                <a class="nav-link" href="{{ route('culinary-merchandise') }}">Merchandise</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('event-festival') }}">Event & Festival</a>
+                <a class="nav-link" href="{{ route('event-festival') }}">History</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('guide') }}">Travel Guide</a>
+                <a class="nav-link" href="{{ route('guide') }}">Guideline & Rules</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="{{ route('article') }}">Article & Information</a>

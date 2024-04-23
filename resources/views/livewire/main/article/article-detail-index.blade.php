@@ -1,6 +1,6 @@
 <section>
-    {{-- <!-- Hero Image -->
-<section id="hero-article-details">
+  {{-- <!-- Hero Image -->
+  <section id="hero-article-details">
     <div class="container">
       <div class="row text-white">
         <div class="col-10 ps-5 ps-md-0">
