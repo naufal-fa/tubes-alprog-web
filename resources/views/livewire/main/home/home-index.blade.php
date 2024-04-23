@@ -1,6 +1,6 @@
 <section>
-<!-- Carousel Section -->
-<section>
+  <!-- Carousel Section -->
+  <section>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -77,8 +77,8 @@
     </div>
   </section>
 
-  <!-- Service Section -->
-<section id="service-section">
+    <!-- Service Section -->
+  <section id="service-section">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 mb-4">
@@ -90,7 +90,7 @@
             <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vel id cupiditate assumenda ratione odio!</p>
           </div>
         </div>
-  
+
         <div class="col-12 col-md-4 mb-4">
           <div class="service-card">
             <div class="circle-icon position-relative mx-auto">
@@ -100,7 +100,7 @@
             <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vel id cupiditate assumenda ratione odio!</p>
           </div>
         </div>
-  
+
         <div class="col-12 col-md-4 mb-4">
           <div class="service-card">
             <div class="circle-icon position-relative mx-auto">
@@ -115,19 +115,19 @@
   </section>
 
   <!-- Destination Highlight -->
-<section id="destlight">
+  <section id="destlight">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1 class="fw-bolder">Destination Highlight</h1>
         </div>
-  
+
         <div class="container mt-4">
           <div class="row">
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img1.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 1</h5>
@@ -137,11 +137,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img2.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 2</h5>
@@ -151,11 +151,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img3.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 3</h5>
@@ -165,11 +165,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img4.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 4</h5>
@@ -179,11 +179,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img5.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 5</h5>
@@ -193,11 +193,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img6.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 6</h5>
@@ -207,11 +207,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img7.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 7</h5>
@@ -221,11 +221,11 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-6 col-lg-3 mb-4">
               <div class="dest-card position-relative">
                 <img src="{{ asset('images/destination-images/destination-img8.png') }}" width="100%" height="auto" alt="" class="dest-img">
-  
+
                 <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                   <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
                     <h5 class="fs-4 fw-bolder">Destinasi 8</h5>
@@ -242,14 +242,14 @@
   </section>
 
   <!-- Search Section -->
-<section id="search" class="d-flex align-items-center mt-5 mb-5">
+  <section id="search" class="d-flex align-items-center mt-5 mb-5">
     <div class="container">
       <div class="row">
         <div class="col-10 mx-auto text-center text-white">
           <h2 class="fw-bolder fs-1">Find Your Destination</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore, soluta veritatis quisquam similique assumenda! Numquam est quidem corporis repellat, nesciunt praesentium at voluptatem adipisci.</p>
         </div>
-  
+
         <div class="col-10 mx-auto mt-5">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -262,12 +262,12 @@
               <button class="nav-link" id="tourpackages-tab" data-bs-toggle="tab" data-bs-target="#tourpackages" type="button" role="tab" aria-controls="contact" aria-selected="false">Information</button>
             </li>
           </ul>
-  
+
           <div class="tab-content" id="myTabContent">
-  
+
             <div class="tab-pane fade show active" id="destination" role="tabpanel" aria-labelledby="destination-tab">
               <div class="input-group input-search mb-3">
-  
+
                 <!-- DROPDOWN TEMPAT WISATA -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-tourism-destination.svg') }}" alt="" class="dropdown-icon">
@@ -280,7 +280,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <!-- DROPDOWN ATRAKSI -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-attraction.svg') }}" alt="" class="dropdown-icon">
@@ -293,19 +293,19 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
                 <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
               </div>
             </div>
-  
+
             <div class="tab-pane fade" id="accomodation" role="tabpanel" aria-labelledby="accomodation-tab">
               <div class="input-group input-search mb-3">
-  
+
                 <!-- DROPDOWN EVENT -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-event.svg') }}" alt="" class="dropdown-icon">
-                  Event
+                  <span class="d-none d-lg-inline">Event</span>
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -314,11 +314,11 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <!-- DROPDOWN FESTIVAL -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-festival.svg') }}" alt="" class="dropdown-icon">
-                  Festival
+                  <span class="d-none d-lg-inline">Festival</span>
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -327,7 +327,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
                 <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
               </div>
@@ -335,11 +335,11 @@
             
             <div class="tab-pane fade" id="tourpackages" role="tabpanel" aria-labelledby="tourpackage-tab">
               <div class="input-group input-search mb-3">
-  
+
                 <!-- DROPDOWN TRAVEL PACKAGE -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-enterprise.svg') }}" alt="" class="dropdown-icon">
-                   Enterprise
+                  <span class="d-none d-lg-inline">Enterprise</span>
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -348,11 +348,11 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <!-- DROPDOWN TRAVEL TOUR -->
                 <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="{{ asset('icon/icon-article.svg') }}" alt="" class="dropdown-icon">
-                  Article
+                  <span class="d-none d-lg-inline">Article</span>
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -361,7 +361,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-  
+
                 <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
                 <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
               </div>

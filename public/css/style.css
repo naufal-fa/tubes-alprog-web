@@ -51,7 +51,7 @@
 
 /* SEARCH STYLING */
 #search {
-    background-image: url("../../public/images/search-section/search-section-img.png");
+    background-image: url("../images/search-section/search-section-img.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,13 @@
 }
 
 .nav-tabs .nav-link {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0);
+    padding: 10px 15.5px;
+}
+
+.nav-tabs .active {
+    background-color: rgba(255, 255, 255, 1) !important;
     color: rgba(0, 0, 0);
     padding: 10px 15.5px;
 }
@@ -141,7 +147,7 @@
 /* DESTINATION PAGE 2 STYLING */
 
 #hero-destination {
-    background-image: url("../../public/images/slider-image-3.png");
+    background-image: url("../images/slider-image-3.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +217,7 @@
 
 /* EMAIL SUBSCRIBE SECTION STYLING */
 #bg-image-email {
-    background-image: url("../../public/images/destination-images/destination-img25.png");
+    background-image: url("../images/destination-images/destination-img25.png");
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +289,7 @@
 /* DETAIL DESTINATION PAGE STYLING */
 
 #hero-details {
-    background-image: url("../../public/images/slider-image-7.png");
+    background-image: url("../images/slider-image-7.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;

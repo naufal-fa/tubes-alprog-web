@@ -1,6 +1,6 @@
 <section>
-    {{-- <!-- Hero Image -->
-<section id="hero-destination">
+  <!-- Hero Image -->
+  <section id="hero-destination">
     <div class="container">
       <div class="row text-white">
         <div class="col-10 ps-5 ps-md-0">
@@ -8,12 +8,12 @@
           <p class="opacity-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit atque pariatur numquam, necessitatibus officia soluta tempora, deserunt accusamus sequi enim dolores quia architecto. Voluptatem, perspiciatis.</p>
           <div class="d-flex gap-3 mt-2">
             <a href="#" class="btn btn-primary">Show More</a>
-            <a href="#" class="btn btn-outline-light"><i class="bi bi-play-circle-fill"></i><p class="pt-3 ps-2 d-inline">Watch Video</p></a>
+            <a href="#" class="btn btn-outline-light"><p class="d-inline">Watch Video</p></a>
           </div>
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
   
   <!-- Description Section -->
   <section>
@@ -107,7 +107,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img15.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 1</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 1</div>
             </div>
           </a>
         </div>
@@ -115,7 +115,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img16.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 2</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 2</div>
             </div>
           </a>
         </div>
@@ -123,7 +123,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img17.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 3</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 3</div>
             </div>
           </a>
         </div>
@@ -131,7 +131,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img18.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 4</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 4</div>
             </div>
           </a>
         </div>
@@ -139,7 +139,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img19.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 5</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 5</div>
             </div>
           </a>
         </div>
@@ -147,7 +147,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img20.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 6</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 6</div>
             </div>
           </a>
         </div>
@@ -155,7 +155,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img21.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 7</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 7</div>
             </div>
           </a>
         </div>
@@ -163,7 +163,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img22.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 8</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 8</div>
             </div>
           </a>
         </div>
@@ -171,7 +171,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img23.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 9</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 9</div>
             </div>
           </a>
         </div>
@@ -179,7 +179,7 @@
           <a href="{{ route('destination-details') }}">
             <div class="tour-column">
               <img src="{{ asset('images/destination-images/destination-img24.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-5 fw-bold">Destinasi 10</div>
+              <div class="tour-title fs-6 fw-bold">Destinasi 10</div>
             </div>
           </a>
         </div>
