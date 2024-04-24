@@ -1,6 +1,6 @@
 <section>
-    {{-- <!-- Hero Image -->
-<section id="hero-article">
+  <!-- Hero Image -->
+  <section id="hero-article">
     <div class="container">
       <div class="row text-white">
         <div class="col-10 ps-5 ps-md-0">
@@ -8,12 +8,12 @@
           <p class="opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, reiciendis consectetur quas possimus debitis suscipit sapiente praesentium voluptatem tempore impedit, temporibus fugiat nemo velit magnam omnis quod dignissimos voluptas esse nihil! Corporis fuga enim inventore!</p>
           <div class="d-flex gap-3 mt-2">
             <a href="#" class="btn btn-primary">Show More</a>
-            <a href="#" class="btn btn-outline-light"><i class="bi bi-play-circle-fill"></i><p class="pt-3 ps-2 d-inline">Watch Video</p></a>
+            <a href="#" class="btn btn-outline-light"><p class="pt-3 ps-2 d-inline">Watch Video</p></a>
           </div>
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
   
   <!-- Description Section -->
   <section>
