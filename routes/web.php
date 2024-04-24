@@ -31,4 +31,8 @@ Route::group(['middleware' => 'auth', 'prefix' => 'simulindo', 'as' => 'simulind
     Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function () {
         Route::get('/', App\Livewire\Simulindo\Dashboard\DashboardIndex::class)->name('index');
     });
+
+    Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
+        Route::get('/', App\Livewire\Simulindo\User\UserIndex::class)->name('index');
+    });
 });
