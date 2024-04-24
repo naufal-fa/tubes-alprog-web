@@ -16,7 +16,6 @@
 
         <div class="page-wrapper">
             @include('layouts.simulindo.navbar')
-
             <div class="page-content">
                 @yield('content')
             </div>

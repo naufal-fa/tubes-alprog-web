@@ -14,14 +14,24 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        Role::create(['name' => 'ADMIN']);
+        // Role::create(['name' => 'ADMIN']);
+
+        // $admin = User::create([
+        //     'name'              => 'Admin',
+        //     'email'             => 'admin@simulindo.com',
+        //     'password'          => Hash::make('12345678'),
+        // ]);
+
+        // $admin->assignRole('ADMIN');
+
+        // Role::create(['name' => 'STAFF']);
 
         $admin = User::create([
-            'name'              => 'Nopal',
-            'email'             => 'ardmisters@gmail.com',
+            'name'              => 'Staff',
+            'email'             => 'staff@simulindo.com',
             'password'          => Hash::make('12345678'),
         ]);
 
-        $admin->assignRole('ADMIN');
+        // $admin->assignRole('STAFF');
     }
 }
