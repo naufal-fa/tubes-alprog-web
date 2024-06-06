@@ -76,13 +76,6 @@
         <hr class="mb-4">
         <div class="row">
           <div class="d-flex align-items-center">
-            <div class="">
-                <p>
-                  Copyright 2024 All Right Reserved By :
-                  <a href="#" class="text-decoration-none text-dark fw-bold">Laravel Project</a>
-                </p>
-              </div>
-  
               <div class="d-flex ms-auto">
                 <ul class="list-unstyled list-inline">
                   <li class="list-inline-item">

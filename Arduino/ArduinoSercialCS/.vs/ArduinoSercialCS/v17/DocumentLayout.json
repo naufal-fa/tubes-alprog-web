@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSercialCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{491E3ACD-275E-4676-BA52-A0D797F79B6C}|ArduinoSercialCS\\ArduinoSercialCS.csproj|c:\\users\\asus\\documents\\kuliah\\algoritma \u0026 pemrograman - semester 2\\tubes-alpro-web\\arduino\\arduinosercialcs\\arduinosercialcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491E3ACD-275E-4676-BA52-A0D797F79B6C}|ArduinoSercialCS\\ArduinoSercialCS.csproj|solutionrelative:arduinosercialcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSercialCS\\ArduinoSercialCS\\Program.cs",
+              "RelativeDocumentMoniker": "ArduinoSercialCS\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSercialCS\\ArduinoSercialCS\\Program.cs",
+              "RelativeToolTip": "ArduinoSercialCS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:00:29.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

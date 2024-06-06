@@ -4,19 +4,19 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-8 mb-3">
-        {{-- wire:model="filterUser.query" --}}
+    {{-- <div class="col-lg-8 mb-3">
+        wire:model="filterUser.query"
         <input type="search" class="form-control w-100"
         placeholder="Search data..." required>
     </div>
     <div class="col-lg-4 mb-3">
-        {{-- wire:model="filterUser.role" --}}
+        wire:model="filterUser.role"
         <select class="form-select w-100" >
             <option value="">Semua Tipe Akun</option>
             <option value="ADMIN">Admin</option>
             <option value="STAFF">Staff</option>
         </select>
-    </div>
+    </div> --}}
     @if($this->filterUser)
         <div class="col-lg-12 mb-3">
             <button type="button" class="btn btn-primary w-100" wire:click="resetFilterUser"><i class="bx bx-refresh"></i> Reset Filter</button>

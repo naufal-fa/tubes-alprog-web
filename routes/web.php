@@ -4,20 +4,22 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
+// Route::get('/sensor/dht/{temperature}/{humidity}', [App\Http\Controllers\SensorController::class, 'send_sensor']);
+
 Route::group(['as' => ''], function () {
     Route::get('/', App\Livewire\Main\Home\HomeIndex::class)->name('home');
     Route::get('/guide', App\Livewire\Main\Guide\GuideIndex::class)->name('guide');
     Route::get('/destination', App\Livewire\Main\Destination\DestinationIndex::class)->name('destination');
     Route::get('/destination-details', App\Livewire\Main\Destination\DestinationDetailIndex::class)->name('destination-details');
-    Route::get('/event-festival', App\Livewire\Main\Event\EventFestivalIndex::class)->name('event-festival');
-    Route::get('/event-festival-details', App\Livewire\Main\Event\EventFestivalDetailIndex::class)->name('event-festival-details');
-    Route::get('/culinary-merchandise', App\Livewire\Main\CulinaryMerchandise\CulinaryMerchandiseIndex::class)->name('culinary-merchandise');
+    Route::get('/history', App\Livewire\Main\History\HistoryIndex::class)->name('history');
+    Route::get('/history-details', App\Livewire\Main\History\HistoryDetailIndex::class)->name('history-details');
+    Route::get('/merchandise', App\Livewire\Main\Merchandise\MerchandiseIndex::class)->name('merchandise');
     Route::get('/article', App\Livewire\Main\Article\ArticleIndex::class)->name('article');
-    Route::get('/article-details', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('article-details');
+    Route::get('/article-detail', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('detail-article');
 });
 
 Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
-    
+
     Route::group(['prefix' => 'login', 'as' => 'login.'], function () {
         Route::get('/', App\Livewire\Auth\Login\LoginIndex::class)->name('index');
         Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login'])->name('post');
@@ -27,12 +29,25 @@ Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
 });
 
 Route::group(['middleware' => 'auth', 'prefix' => 'simulindo', 'as' => 'simulindo.'], function () {
-    
+
     Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function () {
         Route::get('/', App\Livewire\Simulindo\Dashboard\DashboardIndex::class)->name('index');
     });
 
     Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
         Route::get('/', App\Livewire\Simulindo\User\UserIndex::class)->name('index');
+    });
+
+    Route::group(['prefix' => 'content', 'as' => 'content.'], function () {
+
+        Route::group(['prefix' => 'home', 'as' => 'home.'], function () {
+            Route::get('/carousel', App\Livewire\Simulindo\Content\Home\CarouselIndex::class)->name('carousel');
+            Route::get('/testimonial', App\Livewire\Simulindo\Content\Home\TestimonialIndex::class)->name('testimonial');
+        });
+
+        Route::group(['prefix' => 'merchandise', 'as' => 'merchandise.'], function () {
+            Route::get('/merchandise', App\Livewire\Simulindo\Content\Merchandise\MerchandiseIndex::class)->name('merchandise');
+            Route::get('/category', App\Livewire\Simulindo\Content\Merchandise\CategoryIndex::class)->name('category');
+        });
     });
 });

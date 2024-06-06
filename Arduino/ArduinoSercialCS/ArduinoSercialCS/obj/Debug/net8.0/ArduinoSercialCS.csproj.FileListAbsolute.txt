@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\bin\Debug\net8.0\ArduinoSercialCS.exe
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\bin\Debug\net8.0\ArduinoSercialCS.deps.json
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\bin\Debug\net8.0\ArduinoSercialCS.runtimeconfig.json
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\bin\Debug\net8.0\ArduinoSercialCS.dll
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\bin\Debug\net8.0\ArduinoSercialCS.pdb
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.sourcelink.json
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.dll
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\refint\ArduinoSercialCS.dll
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.pdb
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ArduinoSercialCS.genruntimeconfig.cache
+C:\Users\ASUS\Documents\Kuliah\Algoritma & Pemrograman - Semester 2\tubes-alpro-web\Arduino\ArduinoSercialCS\ArduinoSercialCS\obj\Debug\net8.0\ref\ArduinoSercialCS.dll

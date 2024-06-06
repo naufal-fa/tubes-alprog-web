@@ -34,99 +34,7 @@
     </div>
   </section>
   
-  <!-- Frequently Visited Place Section -->
-  <section>
-    <div class="container">
-      <div class="col-12 mb-4">
-        <h1 class="display-6 fw-bolder text-capitalize">Frequently visited places in this destination</h1>
-      </div>
-      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
-  
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img15.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 1</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img16.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 2</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img17.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 3</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img18.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 4</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img19.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 5</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img20.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 6</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img21.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 7</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img22.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 8</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img23.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 9</div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a href="{{ route('destination-details') }}">
-            <div class="tour-column">
-              <img src="{{ asset('images/destination-images/destination-img24.png') }}" alt="Pemandangan 2" class="tour-image-popular">
-              <div class="tour-title fs-6 fw-bold">Destinasi 10</div>
-            </div>
-          </a>
-        </div>
-  
-      </div>
-      <hr class="my-5">
-    </div>
-  </section>
+
   
   <!-- Further Explanation Section -->
   <section>
@@ -307,166 +215,7 @@
       <hr class="my-5">
     </div>
   </section>
-  
-  <!-- Food & Merchandise Section -->
-  <section>
-    <div class="container">
-      <div class="col-12 mb-4">
-        <h1 class="display-6 fw-bolder text-capitalize">Food and merchandise available</h1>
-      </div>
-      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/food-img/food-img1.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">Business Name</p>
-              <h5 class="card-title fw-bold">Name of Food or Merchandise</h5>
-              <a href="#" class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#ModalFoodMerchandise">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/food-img/food-img2.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">Business Name</p>
-              <h5 class="card-title fw-bold">Name of Food or Merchandise</h5>
-              <a href="#" class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#ModalFoodMerchandise">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/food-img/food-img3.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">Business Name</p>
-              <h5 class="card-title fw-bold">Name of Food or Merchandise</h5>
-              <a href="#" class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#ModalFoodMerchandise">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/merchandise-img/merchandise-img1.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">Business Name</p>
-              <h5 class="card-title fw-bold">Name of Food or Merchandise</h5>
-              <a href="#" class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#ModalFoodMerchandise">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/merchandise-img/merchandise-img2.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">Business Name</p>
-              <h5 class="card-title fw-bold">Name of Food or Merchandise</h5>
-              <a href="#" class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#ModalFoodMerchandise">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Modal -->
-        <!-- This Modal is only for dummy, if you want to use it for each element, you just copy it and then change a few things -->
-        <div class="modal fade" id="ModalFoodMerchandise" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title fw-bold" id="exampleModalLabel">Business Name</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="{{ asset('images/food-img/food-img1.png') }}" class="card-img-top" alt="..." class="info-card-img">
-  
-                <h5 class="card-title fw-bolder pt-4">Name of Food or Merchandise</h5>
-                <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis repellat veritatis impedit dicta iste exercitationem totam ex nostrum rerum. Minima expedita laudantium esse explicabo voluptate.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <a href="#" class="btn btn-primary">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <hr class="mb-5">
-    </div>
-  </section>
-  
-  <!-- Event & Festival Section -->
-  <section>
-    <div class="container">
-      <div class="col-12 mb-4">
-        <h1 class="display-6 fw-bolder text-capitalize">Upcoming events and festivals</h1>
-      </div>
-      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/event-festival-img/event-festival-img1.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
-              <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-              <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/event-festival-img/event-festival-img2.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
-              <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-              <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/event-festival-img/event-festival-img3.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
-              <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-              <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/event-festival-img/event-festival-img4.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
-              <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-              <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col mb-4">
-          <div class="info-card card">
-            <img src="{{ asset('images/event-festival-img/event-festival-img5.png') }}" class="card-img-top" alt="..." class="info-card-img">
-            <div class="card-body">
-              <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024 | 12:00 WIB</p>
-              <h5 class="card-title fw-bold">Name of Event or Festival</h5>
-              <a href="{{ route('event-festival-details') }}" class="btn btn-primary col-12">Show Details</a>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <hr class="mb-5">
-    </div>
-  </section>
-  
+
   <!-- More Information Section -->
   <section>
     <div class="container">
@@ -534,4 +283,99 @@
       <hr class="mb-5">
     </div>
   </section>
+
+    <!-- Frequently Visited Place Section -->
+    <section>
+      <div class="container">
+        <div class="col-12 mb-4">
+          <h1 class="display-6 fw-bolder text-capitalize"><center>Similar destination in lapindo</center></h1>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
+    
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img15.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 1</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img16.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 2</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img17.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 3</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img18.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 4</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img19.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 5</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img20.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 6</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img21.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 7</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img22.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 8</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img23.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 9</div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="{{ route('destination-details') }}">
+              <div class="tour-column">
+                <img src="{{ asset('images/destination-images/destination-img24.png') }}" alt="Pemandangan 2" class="tour-image-popular">
+                <div class="tour-title fs-6 fw-bold">Destinasi 10</div>
+              </div>
+            </a>
+          </div>
+    
+        </div>
+        <hr class="my-5">
+      </div>
+    </section>
+
 </section>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoSerialPort", "ArduinoSerialPort\ArduinoSerialPort.csproj", "{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92D00B8E-1CAF-49FF-8FF6-3E2F1DAE4481}
+	EndGlobalSection
+EndGlobal

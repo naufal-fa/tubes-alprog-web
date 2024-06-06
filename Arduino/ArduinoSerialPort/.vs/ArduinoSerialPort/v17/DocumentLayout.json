@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}|ArduinoSerialPort\\ArduinoSerialPort.csproj|c:\\users\\asus\\documents\\kuliah\\algoritma \u0026 pemrograman - semester 2\\tubes-alpro-web\\arduino\\arduinoserialport\\arduinoserialport\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}|ArduinoSerialPort\\ArduinoSerialPort.csproj|solutionrelative:arduinoserialport\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}|ArduinoSerialPort\\ArduinoSerialPort.csproj|C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\arduinoserialport\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD41CF5B-FB1D-4B36-9F34-9DE5F8E53175}|ArduinoSerialPort\\ArduinoSerialPort.csproj|solutionrelative:arduinoserialport\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\ArduinoSerialPort\\Form1.cs",
+              "RelativeDocumentMoniker": "ArduinoSerialPort\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\ArduinoSerialPort\\Form1.cs",
+              "RelativeToolTip": "ArduinoSerialPort\\Form1.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:02:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\ArduinoSerialPort\\Form1.cs",
+              "RelativeDocumentMoniker": "ArduinoSerialPort\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Kuliah\\Algoritma \u0026 Pemrograman - Semester 2\\tubes-alpro-web\\Arduino\\ArduinoSerialPort\\ArduinoSerialPort\\Form1.cs [Design]",
+              "RelativeToolTip": "ArduinoSerialPort\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:01:07.907Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

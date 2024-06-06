@@ -3,7 +3,7 @@
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="{{ asset('logo/website_logo.png') }}" alt="" width="24" height="24" class="d-inline-block align-text-top">
             <!-- {{ config('app.name', 'Laravel') }} -->
-            <span class="fw-bolder" >LARAVEL PROJECT</span>
+            <span class="fw-bolder" >LapX</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,22 +11,22 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('destination') }}">Tourist Destination</a>
+                    <a class="nav-link {{ (request()->is('destination') || request()->is('destination-details')) ? 'active' : '' }}"  aria-current="page" href="{{ route('destination') }}">Tourist Destination</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('culinary-merchandise') }}">Merchandise</a>
+                    <a class="nav-link {{ request()->is('merchandise') ? 'active' : '' }}" href="{{ route('merchandise') }}">Merchandise</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('event-festival') }}">History</a>
+                    <a class="nav-link {{ (request()->is('history') || request()->is('history-details')) ? 'active' : '' }}" href="{{ route('history') }}">History</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('guide') }}">Guideline & Rules</a>
+                    <a class="nav-link {{ request()->is('guide') ? 'active' : '' }}" href="{{ route('guide') }}">Guideline & Rules</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('article') }}">Article & Information</a>
+                    <a class="nav-link {{ (request()->is('article') || request()->is('article-details')) ? 'active' : '' }}" href="{{ route('article') }}">Article & Information</a>
                 </li>
             </ul>
 

@@ -1,6 +1,9 @@
 @section('title', 'User Management')
 
 <section>
+    @include('sections.modal.simulindo.user.edit')
+    @include('sections.modal.simulindo.user.create')
+
     <nav class="page-breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{ route('simulindo.dashboard.index') }}">Dashboard</a></li>
