@@ -65,7 +65,7 @@
             <div class="card-body">
               <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024</p>
               <h5 class="card-title fw-bold">Title of article or information</h5>
-              <a href="{{ route('article-details') }}" class="btn btn-primary col-12">Read More</a>
+              <a href="{{ route('detail-article') }}" class="btn btn-primary col-12">Read More</a>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@
             <div class="card-body">
               <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024</p>
               <h5 class="card-title fw-bold">Title of article or information</h5>
-              <a href="{{ route('article-details') }}" class="btn btn-primary col-12">Read More</a>
+              <a href="{{ route('detail-article') }}" class="btn btn-primary col-12">Read More</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="card-body">
               <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024</p>
               <h5 class="card-title fw-bold">Title of article or information</h5>
-              <a href="{{ route('article-details') }}" class="btn btn-primary col-12">Read More</a>
+              <a href="{{ route('detail-article') }}" class="btn btn-primary col-12">Read More</a>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
             <div class="card-body">
               <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024</p>
               <h5 class="card-title fw-bold">Title of article or information</h5>
-              <a href="{{ route('article-details') }}" class="btn btn-primary col-12">Read More</a>
+              <a href="{{ route('detail-article') }}" class="btn btn-primary col-12">Read More</a>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
             <div class="card-body">
               <p class="text-muted mb-2" style="font-size: 10px;">14 Apr 2024</p>
               <h5 class="card-title fw-bold">Title of article or information</h5>
-              <a href="{{ route('article-details') }}" class="btn btn-primary col-12">Read More</a>
+              <a href="{{ route('detail-article') }}" class="btn btn-primary col-12">Read More</a>
             </div>
           </div>
         </div>
