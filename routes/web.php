@@ -49,5 +49,10 @@ Route::group(['middleware' => 'auth', 'prefix' => 'simulindo', 'as' => 'simulind
             Route::get('/merchandise', App\Livewire\Simulindo\Content\Merchandise\MerchandiseIndex::class)->name('merchandise');
             Route::get('/category', App\Livewire\Simulindo\Content\Merchandise\CategoryIndex::class)->name('category');
         });
+
+        Route::group(['prefix' => 'article', 'as' => 'article.'], function () {
+            Route::get('/article', App\Livewire\Simulindo\Content\Article\ArticleIndex::class)->name('article');
+            Route::get('/category', App\Livewire\Simulindo\Content\Article\CategoryIndex::class)->name('category');
+        });
     });
 });

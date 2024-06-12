@@ -61,6 +61,27 @@
             </ul>
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#article" role="button" aria-expanded="{{ request()->is('simulindo/content/article/*') ? 'show' : '' }}" aria-controls="article">
+            <i class="link-icon" data-feather="layout"></i>
+              <span class="link-title">Article page</span>
+            <i class="link-arrow" data-feather="chevron-down"></i>
+          </a>
+          <div class="collapse {{ request()->is('simulindo/content/article/*') ? 'show' : '' }}" id="article">
+            <ul class="nav sub-menu">
+              <li class="nav-item">
+                <a href="{{ route('simulindo.content.article.article') }}" class="nav-link">Article</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse {{ request()->is('simulindo/content/article/*') ? 'show' : '' }}" id="article">
+            <ul class="nav sub-menu">
+              <li class="nav-item">
+                <a href="{{ route('simulindo.content.article.category') }}" class="nav-link"> Article Category</a>
+              </li>
+            </ul>
+          </div>
+        </li>
         <li class="nav-item nav-category">User Setting</li>
         {{-- <li class="nav-item">
           <a class="nav-link" data-toggle="collapse" href="#user" role="button" aria-expanded="{{ (request()->is('simulindo/user') || request()->is('simulindo/user/*')) ? 'true' : 'false' }}" aria-controls="user">
