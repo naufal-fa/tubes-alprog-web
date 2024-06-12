@@ -1,4 +1,4 @@
-/* CAROUSEL STYLING */
+/* CAROUSEL HERO STYLING */
 .c-item {
     height: 500px;
 }
@@ -8,20 +8,68 @@
     filter: brightness(0.6);
 }
 
-/* SERVICE STYLING */
-#service-section {
+/* RADIUS STYLING */
+.radius-box {
+    border-radius: 10px;
+}
+.radius-img {
+    border-radius: 10px;
+}
+
+/* ======================================================================= */
+/* HOME PAGE STYLING */
+
+/* HERO IMAGE STYLING */
+#hero-home {
+    background-image: url("../images/hero-img/hero-image_lumpur-lapindo.jpg");
+}
+
+.hero-section {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+.hero-section::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hero-section .row {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section h1 {
+    margin-top: 40px;
+}
+
+
+/* WEATHER STYLING */
+#weather-section {
     padding: 50px 0;
 }
 
-.service-card {
+.weather-card {
     width: 100%;
     border-radius: 10px;
+    height: 360px;
     padding: 40px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
     transition: all .2s ease-in
 }
 
-.service-card:hover {
+.weather-card:hover {
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
     transition: all .2s ease-in;
 }
@@ -32,486 +80,211 @@
     border-radius: 50%;
 }
 
-/* DESTINATION STYLING */
-.dest-img {
-    border-radius: 10px;
-}
-
-.dest-card .overlay {
+/* LAPINDO EXPLANATION STYLING */
+#lapindo-explanation-img::after {
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: all ease-in-out .3s;
+}
+
+
+/* CAROUSEL IMAGE GALERY STYLING */
+#galery .carousel-item {
+    height: 500px;
+}
+
+#galery .radius-img {
     border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 
-.dest-card .overlay:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-}
-
-/* SEARCH STYLING */
-#search {
-    background-image: url("../images/search-section/search-section-img.png");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.input-search {
-    height: 60px;
-}
-
-.input-search:focus {
-    border: none;
-}
-
-.input-search .button-secondary {
-    border: none;
-    background-color: rgba(255, 255, 255, alpha, 0.8);
-    color: #337ab7;
-    font-weight: 600;
-    border-radius: 0 0 0 10px;
-}
-
-.button-primary {
-    background-color: #337ab7;
-    color: #fff;
-    border: none;
-    border-radius: 0 10px 10px 0;
-}
-
-#myTab {
-    border: none;
-}
-
-#destination-tab {
-    border-radius: 10px 0 0 0;
-}
-
-#accomodation-tab {
-    border-radius: 0;
-}
-
-#tourpackages-tab {
-    border-radius: 0 10px 0 0;
-}
-
-.nav-tabs .nav-link {
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    color: rgba(0, 0, 0);
-    padding: 10px 15.5px;
-}
-
-.nav-tabs .active {
-    background-color: rgba(255, 255, 255, 1) !important;
-    color: rgba(0, 0, 0);
-    padding: 10px 15.5px;
-}
-
-/* CARD STYLING */
-.recom-card {
-    border: none !important;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
-    transition: all .2s ease-in;
-}
-
-.recom-card:hover {
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
-    transition: all .2s ease-in;
-}
 
 /* TESTIMONIAL STYLING */
-.card-testimoni {
-    margin: 0 5px;
-    padding: 20px 10px;
-    border-radius: 20px;
-    border: none !important;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
+.star-active {
+    font-size: 24px;
+    color: orange;
 }
 
-/* FOOTER STYLING */
-.img-footer {
-    margin-right: 10px;
-}
-
-.card-img-testi {
-    max-width: 100px;
-    border-radius: 50%;
-    margin: 15px auto;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
-    width: 100px;
-    height: 100px;
+.star-disabled {
+    font-size: 24px;
+    color: grey;
 }
 
 /* ======================================================================= */
-/* DESTINATION PAGE 2 STYLING */
-
-#hero-destination {
-    background-image: url("../images/slider-image-3.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
+/* REVIEW LOKASI STYLING */
+#breadcrumb-section {
+    margin-top: 80px;
 }
 
-#hero-destination::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-destination .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-destination h1 {
-    margin-top: 120px;
-}
-
-.tour-column {
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.tour-image {
-    transition: transform .5s ease;
-    display: block;
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.tour-image-popular {
-    transition: transform .5s ease;
-    display: block;
-    width: 100%;
-    aspect-ratio: 3/4;
-    object-fit: cover;
-}
-
-.tour-column:hover .tour-image {
-    transform: scale(1.1);
-}
-
-.tour-column:hover .tour-image-popular {
-    transform: scale(1.1);
-}
-
-.tour-title {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-}
-
-/* EMAIL SUBSCRIBE SECTION STYLING */
-#bg-image-email {
-    background-image: url("../images/destination-images/destination-img25.png");
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* ======================================================================= */
-/* GUIDE STYLING */
-
-#hero-guide {
-    background-image: url("../images/slider-image-6.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
-}
-
-#hero-guide::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-guide .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-guide h1 {
-    margin-top: 50px;
-}
-
-.card-guide {
-    border: none !important;
+.card-review {
+    height: 450px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
     transition: all .2s ease-in;
 }
 
-.card-guide:hover {
+.card-review:hover {
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
     transition: all .2s ease-in;
 }
 
-.guide-cover-img {
+.review-image {
     overflow: hidden;
     position: relative;
-    aspect-ratio: 1/1;
 }
 
-.guide-cover-img img {
+.review-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
 
-.guide-cover-img img:hover {
+.review-image img:hover {
     transform: scale(1.1);
 }
 
-/* ======================================================================= */
-/* DETAIL DESTINATION PAGE STYLING */
-
-#hero-details {
-    background-image: url("../images/slider-image-7.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
+#location-review-img::after {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#hero-details::after {
-    content: '';
-    display: block;
-    height: 100%;
+
+/* CAROUSEL YOUTUBE STYLING */
+#yt-carousel .carousel-item {
+    height: 628px;
+}
+
+#yt-carousel .slide-yt iframe {
+    border-radius: 10px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-details .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-details h1 {
-    margin-top: 100px;
-}
-
-/* INFORMATION CARD STYLING */
-
-.info-card-img {
-    display: block;
+    height: 100%;
     object-fit: cover;
-    height: 200px;
 }
 
 /* ======================================================================= */
-/* EVENT & FESTIVAL STYLING */
+/* UMKM & EKRAF STYLING */
 
-#hero-history {
-    background-image: url("../images/history-img/history-img8.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
-}
-
-#hero-history::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-history .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-history h1 {
-    margin-top: 80px;
+/* UMKM HERO IMAGE */
+#hero-umkm {
+    background-image: url("../images/hero-img/hero-umkm-img.png");
+    height: 350px;
 }
 
 #filter {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
 }
 
-.card-event {
-    border: none !important;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+/* UMKM CARD IMAGE */
+
+.umkm-ekraf-card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.umkm-ekraf-card-image::hover {
+    transform: scale(1.1);
+}
+
+/* JOIN US UMKM SECTION STYLING */
+#join-us {
+    background-image: url("../images/umkm-ekraf-img/join-us.png");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ======================================================================= */
+/* RESEARCH SECTION STYLING */
+
+/* RESEARCH HERO IMAGE */
+#hero-research {
+    background-image: url("../images/research-img/patung-research.png");
+    height: 350px;
+}
+
+.card-research {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
     transition: all .2s ease-in;
 }
 
-.card-event:hover {
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+.card-research:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.08);
     transition: all .2s ease-in;
 }
 
-.event-cover-img {
+.research-cover-img {
     overflow: hidden;
     position: relative;
     aspect-ratio: 1/1;
+    border-right: 1px solid #C8C8C8;
 }
 
-.event-cover-img img {
+.research-cover-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
 
-.event-cover-img img:hover {
+.research-cover-img img:hover {
     transform: scale(1.1);
 }
 
-/* ======================================================================= */
-/* EVENT & FESTIVAL DETAILS STYLING */
-
-#hero-history-details {
-    background-image: url("../images/history-img/history-img9.png");
-    height: 500px;
+#research-license {
+    background-image: url("../images/research-img/research-image.png");
+    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    padding: 0;
+    background-position: center;
 }
 
-#hero-history-details::after {
-    content: '';
+/* INFORMATION CARD STYLING */
+.info-card-img {
     display: block;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-history-details .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-history-details h1 {
-    margin-top: 100px;
-}
-
-.circle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #3498db;
-    transition: background-color 0.3s ease;
-}
-
-/* ======================================================================= */
-/* MERCHANDISE STYLING */
-
-/* #hero-food-merchandise {
-    background-image: url("../../public/images/food-img/food-img6.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
-}
-
-#hero-food-merchandise::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#hero-food-merchandise .row {
-    position: absolute;
-    z-index: 1;
-}
-
-#hero-food-merchandise h1 {
-    margin-top: 100px;
-} */
-
-.merchandise-card-img {
-    width: 100%;
-    height: auto;
     object-fit: cover;
-    aspect-ratio: 1/1; /* Membuat gambar menjadi persegi */
+    height: 200px;
 }
+
 
 /* ======================================================================= */
 /* ARTICLE STYLING */
 
 #hero-article {
-    background-image: url("../images/article-img/article-img2.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/hero-img/hero-article-img.png");
+    height: 350px;
+    background-position: center;
+}
+
+.card-article {
+    border: none !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+    transition: all .2s ease-in;
+}
+
+.card-article:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+    transition: all .2s ease-in;
+}
+
+.article-cover-img {
+    overflow: hidden;
     position: relative;
-    padding: 0;
+    aspect-ratio: 1/1;
 }
 
-#hero-article::after {
-    content: '';
-    display: block;
-    height: 100%;
+.article-cover-img img {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
 }
 
-#hero-article .row {
-    position: absolute;
-    z-index: 1;
+.article-cover-img img:hover {
+    transform: scale(1.1);
 }
 
-#hero-article h1 {
-    margin-top: 50px;
-}
 
 /* ======================================================================= */
 /* ARTICLE DETAIL STYLING */
@@ -545,4 +318,50 @@
 
 #hero-article-details h1 {
     margin-top: 80px;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        height:400px;
+    }
+
+    .hero-section h1 {
+        margin-top: 60px;
+    }
+
+    .weather-card {
+        height: auto; /* Atur tinggi menjadi otomatis */
+    }
+
+    #testimonialCarousel {
+        margin-top: 20px;
+    }
+
+    .card-review {
+        height: 400px;
+    }
+
+    #yt-carousel .carousel-item {
+        height: 260px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .weather-card {
+        height: 400px;
+    }
+
+    #testimonialCarousel {
+        margin-top: 20px;
+    }
+
+    .card-review {
+        height: 400px;
+    }
+
+    #yt-carousel .carousel-item {
+        height: 380px;
+    }
 }

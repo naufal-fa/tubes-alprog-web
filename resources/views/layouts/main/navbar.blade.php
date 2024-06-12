@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{ asset('logo/website_logo.png') }}" alt="" width="24" height="24" class="d-inline-block align-text-top">
+            <img src="{{ asset('logo/Lap-X_logo.png') }}" alt="" width="30" height="30" class="d-inline-block align-text-top">
             <!-- {{ config('app.name', 'Laravel') }} -->
-            <span class="fw-bolder" >LapX</span>
+            <p class="d-inline fw-bolder" style="color: #fa971e;">LAP<span style="color: #404040;">-X</span></p>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,16 +14,16 @@
                     <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ (request()->is('destination') || request()->is('destination-details')) ? 'active' : '' }}"  aria-current="page" href="{{ route('destination') }}">Tourist Destination</a>
+                    <a class="nav-link {{ request()->is('location-review') ? 'active' : '' }}"  aria-current="page" href="{{ route('location-review') }}">Location Review</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('merchandise') ? 'active' : '' }}" href="{{ route('merchandise') }}">Merchandise</a>
+                    <a class="nav-link {{ request()->is('umkm-ekraf') ? 'active' : '' }}" href="{{ route('umkm-ekraf') }}">UMKM & Ekraf</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ (request()->is('history') || request()->is('history-details')) ? 'active' : '' }}" href="{{ route('history') }}">History</a>
+                    <a class="nav-link {{ request()->is('research') ? 'active' : '' }}" href="{{ route('research') }}">Penelitian Terdahulu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('guide') ? 'active' : '' }}" href="{{ route('guide') }}">Guideline & Rules</a>
+                    <a class="nav-link {{ request()->is('guide') ? 'active' : '' }}" href="{{ route('guide') }}">Guidelines & Rules</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ (request()->is('article') || request()->is('article-details')) ? 'active' : '' }}" href="{{ route('article') }}">Article & Information</a>

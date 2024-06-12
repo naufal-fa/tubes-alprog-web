@@ -8,12 +8,15 @@ Auth::routes();
 
 Route::group(['as' => ''], function () {
     Route::get('/', App\Livewire\Main\Home\HomeIndex::class)->name('home');
+    Route::get('/location-review', App\Livewire\Main\Review\LocationReviewIndex::class)->name('location-review');
+    Route::get('/umkm-ekraf', App\Livewire\Main\UMKMEkraf\UMKMEkrafIndex::class)->name('umkm-ekraf');
+    Route::get('/research', App\Livewire\Main\Research\ResearchIndex::class)->name('research');
     Route::get('/guide', App\Livewire\Main\Guide\GuideIndex::class)->name('guide');
-    Route::get('/destination', App\Livewire\Main\Destination\DestinationIndex::class)->name('destination');
-    Route::get('/destination-details', App\Livewire\Main\Destination\DestinationDetailIndex::class)->name('destination-details');
-    Route::get('/history', App\Livewire\Main\History\HistoryIndex::class)->name('history');
-    Route::get('/history-details', App\Livewire\Main\History\HistoryDetailIndex::class)->name('history-details');
-    Route::get('/merchandise', App\Livewire\Main\Merchandise\MerchandiseIndex::class)->name('merchandise');
+    // Route::get('/destination', App\Livewire\Main\Destination\DestinationIndex::class)->name('destination');
+    // Route::get('/destination-details', App\Livewire\Main\Destination\DestinationDetailIndex::class)->name('destination-details');
+    // Route::get('/history', App\Livewire\Main\History\HistoryIndex::class)->name('history');
+    // Route::get('/history-details', App\Livewire\Main\History\HistoryDetailIndex::class)->name('history-details');
+    // Route::get('/merchandise', App\Livewire\Main\Merchandise\MerchandiseIndex::class)->name('merchandise');
     Route::get('/article', App\Livewire\Main\Article\ArticleIndex::class)->name('article');
     Route::get('/article-detail', App\Livewire\Main\Article\ArticleDetailIndex::class)->name('detail-article');
 });

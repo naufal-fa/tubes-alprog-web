@@ -35,449 +35,246 @@
     </div>
   </section>
 
-    <!-- Service Section -->
-  <section id="service-section">
+  <!-- Hero Image -->
+  <section id="hero-home" class="hero-section d-flex align-items-center justify-content-center">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4 mb-4">
-          <div class="service-card">
-            <div class="circle-icon position-relative mx-auto">
-              <a href="https://www.flaticon.com/free-icons/travel" title="travel icons"><img src="{{ asset('logo/airplane.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-            </div>
-            <h3 class="fw-bold mt-4 text-center">Fast Travel</h3>
-            <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vel id cupiditate assumenda ratione odio!</p>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 mb-4">
-          <div class="service-card">
-            <div class="circle-icon position-relative mx-auto">
-              <a href="https://www.flaticon.com/free-icons/sustainable-travel" title="sustainable travel"><img src="{{ asset('logo/sustainable-travel.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-            </div>
-            <h3 class="fw-bold mt-4 text-center">Sustainable Travel</h3>
-            <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vel id cupiditate assumenda ratione odio!</p>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 mb-4">
-          <div class="service-card">
-            <div class="circle-icon position-relative mx-auto">
-              <a href="https://www.flaticon.com/free-icons/airplane" title="airplane icons"><img src="{{ asset('logo/payment.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-            </div>
-            <h3 class="fw-bold mt-4 text-center">Affordable Cost</h3>
-            <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vel id cupiditate assumenda ratione odio!</p>
+      <div class="row text-white">
+        <div class="col-10 ps-md-0 text-center text-md-start mx-auto m-lg-0">
+          <h1 class="display-5 fw-bolder text-uppercase">LAP-X PUSAT INFORMASI BENCANA LUMPUR LAPINDO</h1>
+          <p class="opacity-75">LapX adalah sebuah situs web yang dikembangkan sebagai pusat informasi mengenai bencana Lumpur Lapindo di Sidoarjo, Jawa Timur. <span class="d-none d-md-inline">Tujuan utama dari LapX adalah untuk menyediakan informasi yang komprehensif, akurat, dan terkini tentang semua aspek terkait Lumpur Lapindo, termasuk sejarah, dampak, upaya penanganan, dan perkembangan terbaru.</span></p>
+          <div class="d-none d-md-flex mt-2">
+            <a href="#" class="btn btn-primary me-3">Learn More</a>
+            <a href="#" class="btn btn-outline-light"><p class="d-inline">Watch Video</p></a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-      <!-- Weather Section -->
-      <section id="service-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-4 mb-6">
-              <div class="service-card">
-                <div class="circle-icon position-relative mx-auto">
-                  <a href="https://www.flaticon.com/free-icons/sustainable-travel" title="Internet of Things"><img src="{{ asset('logo/internet-of-things.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-                </div>
-                <h3 class="fw-bold mt-4 text-center">Kondisi Temperature - Sensor</h3> 
-                <h1 class="mt-3 text-center">{{ $sensors->value1 }} °C</h1>
-              </div>
+  <!-- Weather Section -->
+  <section id="weather-section">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-12 col-md-4 mb-6">
+          <div class="weather-card">
+            <div class="circle-icon position-relative mx-auto">
+              <a href="#" title="Temperature Sensor"><img src="{{ asset('logo/Temperature_Sensor.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
             </div>
-    
-            <div class="col-12 col-md-4 mb-6">
-              <div class="service-card">
-                <div class="circle-icon position-relative mx-auto">
-                  <a href="https://www.flaticon.com/free-icons/sustainable-travel" title="Internet of Things"><img src="{{ asset('logo/internet-of-things.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-                </div>
-                <h3 class="fw-bold mt-4 text-center">Kadar CO</h3> 
-                <h1 class="mt-3 text-center">CO: {{ $sensors->value2 }}</h1>
-              </div>
-            </div>
-
-
-            <div class="col-12 col-md-4 mb-6">
-              <div class="service-card">
-                <div class="circle-icon position-relative mx-auto">
-                  <a href="https://www.flaticon.com/free-icons/airplane" title="Logo BMKG"><img src="{{ asset('logo/Logo_BMKG.png') }}" alt="" width="60" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
-                </div>
-                <h3 class="fw-bold mt-4 text-center">Kondisi Temperature - BMKG</h3>
-                <h4 class="mt-3 text-center" id="weatherBMKG">Cuaca: </h4>
-                <h1 class="mt-3 text-center" id="temperatureBMKG"></h1>
-              </div>
-            </div>
+            <h3 class="fw-bold mt-4 text-center">Kondisi Temperature - Sensor</h3> 
+            <h1 class="mt-3 text-center">{{ $sensors->value1 }} °C</h1>
           </div>
         </div>
-      </section>
 
-  <!-- Destination Highlight -->
-  <section id="destlight">
+        <div class="col-12 col-md-4 mb-6">
+          <div class="weather-card">
+            <div class="circle-icon position-relative mx-auto">
+              <a href="#" title="Kadar CO"><img src="{{ asset('logo/Kadar_CO.png') }}" alt="" width="70" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
+            </div>
+            <h3 class="fw-bold mt-4 text-center">Kadar CO</h3> 
+            <h1 class="mt-3 text-center">CO: {{ $sensors->value2 }}</h1>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-6">
+          <div class="weather-card">
+            <div class="circle-icon position-relative mx-auto">
+              <a href="#" title="Logo BMKG"><img src="{{ asset('logo/Logo_BMKG.png') }}" alt="" width="60" height="70" class="position-absolute top-50 start-50 translate-middle"></a>
+            </div>
+            <h3 class="fw-bold mt-4 text-center">Kondisi Temperature - BMKG</h3>
+            <h4 class="mt-3 text-center" id="weatherBMKG">Cuaca: </h4>
+            <h1 class="mt-3 text-center" id="temperatureBMKG"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lapindo Explanation Image Section -->
+  <section id="lapindo-explanation-img">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="fw-bolder">Destination Highlight</h1>
-        </div>
-
-        <div class="container mt-4">
-          <div class="row">
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img1.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 1</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img2.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 2</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img3.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 3</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img4.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 4</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img5.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 5</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img6.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 6</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img7.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 7</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-lg-3 mb-4">
-              <div class="dest-card position-relative">
-                <img src="{{ asset('images/destination-images/destination-img8.png') }}" width="100%" height="auto" alt="" class="dest-img">
-
-                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-                  <div class="text-white position-absolute top-50 start-50 translate-middle text-center w-100 p-3">
-                    <h5 class="fs-4 fw-bolder">Destinasi 8</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <a href="{{ route('destination-details') }}" class="btn btn-primary">View More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="{{ asset('images/home-img/lapindo-explanation-img.png') }}" class="w-100 radius-img" alt="...">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Search Section -->
-  <section id="search" class="d-flex align-items-center mt-5 mb-5">
+  <!-- Lapindo Explanation Section -->
+  <section>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12 mb-4">
+          <h1 class="display-6 fw-bolder text-capitalize mb-3">Deskripsi Lumpur Lapindo</h1>
+
+          <p>Apa itu Lumpur Lapindo? Teman teman pasti banyak yang tidak mengetahui lumpur Lapindo, wisata ini ada setelah terjadinya kesalahan pengeboran di salah satu proyek yang ada di sidoarjo. Lumpur panas di Sidoarjo atau lebih dikenal dengan Lumpur Lapindo, terjadi pada tanggal 29 Mei 2006 yang lokasinya di area pengeboran PT Lapindo Brantas, Dusun Balongnongo. Terdapat dua desa yang terkena dampak paling besar yaitu Desa Renekenongo dan Desa Jatirejo, Kec Porong, Kab Sidoarjo, Jawa Timur, Indonesia.</p>
+
+          <p>Hal ini terjadi karena adanya aktivitas pengeboran, dan karena kesalahan aktivitas pengeboran itu keluarlah lumpur panas yang per hari nya mengeluarkan lumpur sekitar 100.000 meter kubik. Lokasi semburan lumpur ini merupakan kawasan yang dekat dengan pemukiman warga dan dulu di sekitar lumpur tersebut termasuk salah satu area industri besar yang ada di Jawa Timur.</p>
+
+          <p>Tidak jauh dari lokasi Lumpur Lapindo terdapat akses jalan tol arah Surabaya-Malang, jalan raya Surabaya-Sidoarjo-Malang dan jalur kereta api rute Surabaya-Malang. Lalu agar lumpur tidak meluas dan menyebar kemana-mana, dibagun sebuah tanggul mengelilingi lokasi keluarnya lumpur panas dan berjalannya waktu tanggul ini pun semakin di perlebar, jadinya seperti tembok besar yang mengelilingi kawasan lumpur Lapindo. Dan sekarang di area lumpur Lapindo sedang di bangun infrastruktur seperti bendungan tepatnya di seberang dari Lumpur Lapindo, pengerjaan pun masih berjalan. Lalu yang membuat penasaran banyak wisatawan ke wisata ini, yaitu tingginya tanggul atau tembok yang mengelilingi lumpur Lapindo menjadi daya tarik bagi wisatawan yang melintas di Sidoarjo karena posisinya yang tertutup, tinggi, dan luas.</p>
+
+        </div>
+        <hr class="mb-5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Galery Carousel Section -->
+  <section id="galery">
+    <div class="container mb-5">
+      <h1 class="fw-bolder mb-4">Galery of Lapindo</h1>
+      <div id="carousel-galery" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-1.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-2.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-3.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-4.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-5.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-6.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-7.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('images/home-img/carousel-galery/galery-slide-8.png') }}" class="d-block w-100 radius-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-galery" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-galery" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr class="my-5">
+    </div>
+  </section>
+
+  <!-- Visitor Testimonial Section -->
+  <section id="testimoni">
     <div class="container">
       <div class="row">
-        <div class="col-10 mx-auto text-center text-white">
-          <h2 class="fw-bolder fs-1">Find Your Destination</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore, soluta veritatis quisquam similique assumenda! Numquam est quidem corporis repellat, nesciunt praesentium at voluptatem adipisci.</p>
+        <div class="col-lg-6 d-flex align-items-center">
+          <h1 class="fw-bolder">Testimoni Visitor Lumpur Lapindo</h1>
         </div>
 
-        <div class="col-10 mx-auto mt-5">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="destination-tab" data-bs-toggle="tab" data-bs-target="#destination" type="button" role="tab" aria-controls="home" aria-selected="true">Destination</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="accomodation-tab" data-bs-toggle="tab" data-bs-target="#accomodation" type="button" role="tab" aria-controls="profile" aria-selected="false">Regional Event</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="tourpackages-tab" data-bs-toggle="tab" data-bs-target="#tourpackages" type="button" role="tab" aria-controls="contact" aria-selected="false">Information</button>
-            </li>
-          </ul>
-
-          <div class="tab-content" id="myTabContent">
-
-            <div class="tab-pane fade show active" id="destination" role="tabpanel" aria-labelledby="destination-tab">
-              <div class="input-group input-search mb-3">
-
-                <!-- DROPDOWN TEMPAT WISATA -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-tourism-destination.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Tourist Destination</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <!-- DROPDOWN ATRAKSI -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-attraction.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Attraction</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
-                <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
-              </div>
-            </div>
-
-            <div class="tab-pane fade" id="accomodation" role="tabpanel" aria-labelledby="accomodation-tab">
-              <div class="input-group input-search mb-3">
-
-                <!-- DROPDOWN EVENT -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-event.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Event</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <!-- DROPDOWN FESTIVAL -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-festival.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Festival</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
-                <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
-              </div>
-            </div>
-            
-            <div class="tab-pane fade" id="tourpackages" role="tabpanel" aria-labelledby="tourpackage-tab">
-              <div class="input-group input-search mb-3">
-
-                <!-- DROPDOWN TRAVEL PACKAGE -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-enterprise.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Enterprise</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <!-- DROPDOWN TRAVEL TOUR -->
-                <button class="button-secondary px-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="{{ asset('icon/icon-article.svg') }}" alt="" class="dropdown-icon">
-                  <span class="d-none d-lg-inline">Article</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-
-                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search by name, location, id, etc.">
-                <button class="button-primary px-4 fs-5" type="button" id="button-addon2">Search</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Recommendation Section -->
-<section id="recommendation">
-    <div class="container mt-4">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="fw-bolder mb-4">Recommended Tourist Destinations</h1>
-        </div>
-      </div>
-  
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images1.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 1</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images2.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 2</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images3.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 3</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images4.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 4</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images5.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 5</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <div class="card recom-card" >
-            <img src="{{ asset('images/recom-images/recom-images6.png') }}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Destinasi 6</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="{{ route('destination-details') }}" class="btn btn-primary w-100">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonial Section -->
-<section id="testimonial">
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="fw-bolder mb-4">Visitor Testimonials</h1>
-        </div>
-      </div>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-          <div class="col-md-12 grid-margin stretch-card">
-            <div class="owl-carousel owl-theme owl-auto-play">
-              @foreach ($testimonials as $key => $testimonial)
-                  <div class="card card-testimoni">
-                    <img src="{{ asset('assets/images/content/home/testimonial') .'/'. $testimonial->image }}" alt="" class="card-img-testi">
-                    <div class="card-body text-center">
-                      <h4 class="fs-4 fw-bold">{{ $testimonial->name }}</h4>
-                      <p class="card-text fst-italic">
-                        "{{ $testimonial->description }}"
-                      </p>
+        <div class="col-lg-6">
+          <div id="testimonialCarousel" class="carousel slide shadow radius-box" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active p-4">
+                <div class="d-flex justify-content-center">
+                  <div class="">
+                    <div class="d-flex justify-content-between mb-3">
+                      <div class="d-flex align-items-center">
+                        <img src="{{ asset('logo/visitor-img.png') }}" alt="Visitor Image 1" width="35" height="35" class="rounded-circle me-3">
+                        <div>
+                          <p class="fw-bold mb-0">Abimanyu Widodo</p>
+                          <p class="fw-normal text-muted mb-0">Juni 2019</p>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <p class="star-active mb-0">&#9733;<span class="star-disabled">&#9733;&#9733;&#9733;&#9733;</span></p>
+                        </div>
+                      </div>
                     </div>
+                    <p class="mb-0">Kawasan Lumpur Lapindo terletak di Kecamatan Porong Sidoarjo, kawasan yang dulunya perkampungan penduduk dan kawasan industri, ludes ditimbun lumpur PT. Lapindo akibat salah prosedur saat pengeboran. Saat ini kawasan lapindo dijadikan obyek wisata dadakan, bagi wisatawan wisatawan dari luar kota yang ingin melihat kawasan lumpur banyak berdatangan ke kawasan ini. Cuaca panas dan tanah gersang sesekali muncul letupan gas dari bekas semburan adalah pemandangan yang dapat dinikmati... :D</p>
                   </div>
-              @endforeach
+                </div>
+              </div>
+
+              <div class="carousel-item p-4">
+                <div class="d-flex justify-content-center">
+                  <div class="">
+                    <div class="d-flex justify-content-between mb-3">
+                      <div class="d-flex align-items-center">
+                        <img src="{{ asset('logo/visitor-img.png') }}" alt="Visitor Image 2" width="35" height="35" class="rounded-circle me-3">
+                        <div>
+                          <p class="fw-bold mb-0">Ummiaiz</p>
+                          <p class="fw-normal text-muted mb-0">Maret 2019</p>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <p class="star-active mb-0">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-0">Kejadian lumpur ini bukan bencana alam tapi karena ulah manusia, itulah yang dikatakan oleh seorang bapak yang merupakan salah seorang mangsa kejadian ini yang berada di sini saat kami mampir. melawat tempat ini sesungguhnya akan membuat kita lebih berfikir.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item p-4">
+                <div class="d-flex justify-content-center">
+                  <div class="">
+                    <div class="d-flex justify-content-between mb-3">
+                      <div class="d-flex align-items-center">
+                        <img src="{{ asset('logo/visitor-img.png') }}" alt="Visitor Image 3" width="35" height="35" class="rounded-circle me-3">
+                        <div>
+                          <p class="fw-bold mb-0">Riza</p>
+                          <p class="fw-normal text-muted mb-0">Januari 2018</p>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <p class="star-active mb-0">&#9733;&#9733;<span class="star-disabled">&#9733;&#9733;&#9733;</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-0">Kesan pertama saat mengunjungi tempat ini benar-benar seperti kota mati yang ditenggelamkan. Di sisi pinggir tanggul, lumpur sudah mulai mengering dan retak karena selalu tersengat panas matahari. Sedangkan di pusat semburan, lumpur panas masih terus menyembur hingga saat ini. Udara disana sangat panas, minim sekali tempat untuk berteduh walau lokasi tersebut telah dikelola sebagai tempat wisata. Untuk tiket parkir dan masuk lokasi rawan premanisme. Entah pengelolaan tanggul tersebut menjadi tempat wisata resmi atau tidak. Yang pasti sistemnya terkesan kurang menyenangkan dan membuat tidak nyaman.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item p-4">
+                <div class="d-flex justify-content-center">
+                  <div class="">
+                    <div class="d-flex justify-content-between mb-3">
+                      <div class="d-flex align-items-center">
+                        <img src="{{ asset('logo/visitor-img.png') }}" alt="Visitor Image 4" width="35" height="35" class="rounded-circle me-3">
+                        <div>
+                          <p class="fw-bold mb-0">Padadita</p>
+                          <p class="fw-normal text-muted mb-0">Juni 2018</p>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <p class="star-active mb-0">&#9733;&#9733;&#9733;&#9733;<span class="star-disabled">&#9733;</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-0">Lumpur Lapindo namanya yang terletak Di daerah Porong-Sidoarjo merupakan suatu bentukan alam yang terjadi fenomena atas kejahilan segelintir manusia untuk memperkaya sebagian kelompok akan tetapi merugikan banyak masyarakat luas,hampir 13 tahun lebih lapindo membawa kenangan seiring waktu menjadi tontonan dan wisata seperti saat ini kami bisa melihat seantero mata memandang lautan lumpur kering terhampar.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
       </div>
+      <hr class="my-5">
     </div>
   </section>
+
 </section>
