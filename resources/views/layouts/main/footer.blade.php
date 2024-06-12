@@ -11,10 +11,10 @@
       <div class="col-md-3 col-lg-2">
         <h4 class="mb-3">Navigation</h4>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="#" class="text-decoration-none text-white">Review Lapindo</a></li>
-          <li class="mb-2"><a href="#" class="text-decoration-none text-white">Gabung Ekraf</a></li>
-          <li class="mb-2"><a href="#" class="text-decoration-none text-white">Jurnal Riset</a></li>
-          <li class="mb-2"><a href="#" class="text-decoration-none text-white">FAQ</a></li>
+          <li class="mb-2"><a href="{{ route('location-review') }}" class="text-decoration-none text-white">Review Lapindo</a></li>
+          <li class="mb-2"><a href="{{ route('umkm-ekraf') }}" class="text-decoration-none text-white">Gabung Ekraf</a></li>
+          <li class="mb-2"><a href="{{ route('research') }}" class="text-decoration-none text-white">Jurnal Riset</a></li>
+          <li class="mb-2"><a href="{{ route('guide') }}" class="text-decoration-none text-white">Panduan & Aturan</a></li>
         </ul>
       </div>
 

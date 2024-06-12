@@ -6,7 +6,7 @@
             <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-decoration-none text-muted text-black fw-bold">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('research') }}" class="text-decoration-none fw-bold" style="color: #fa971e;">Guidelines & Rules</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('guide') }}" class="text-decoration-none fw-bold" style="color: #fa971e;">Guidelines & Rules</a></li>
             </ol>
             </nav>
         </div>
